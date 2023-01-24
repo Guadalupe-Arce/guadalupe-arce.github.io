@@ -1,0 +1,153 @@
+*{
+    background-color: #FFE633;
+    
+}
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 10px 10px 10px;
+    font-weight: bold;
+    color: #33C4FF;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+p, li, a {
+    color: black;
+    width: auto;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+a {
+  margin: 10px 10px 5px 5px;
+  padding: 0.2em 0.5em;
+  border: 1px solid black;
+  background: #33c4ff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section{
+    padding: 30px;
+}
+
+section#informacón_personal{
+    border: 10px solid green;
+}
+
+section#experiencia{
+    border: 10px solid green;
+}
+
+section#habilidades{
+    border: 10px solid green;  
+}
+section#contacto{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    border: 10px solid green; 
+}
+#mostrar{
+  display: none; 
+}
+#mostrar form {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #mostrar form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  #mostrar form button {
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+  #mostrar form textarea{
+    width: 90%;
+    height: 50px;
+    margin: 0.5rem;
+    border: 2px solid black;
+  }
+
+#nombre_profesion h1{
+    display: flex;
+    justify-content: center;
+}
+img {
+    display: block;
+    margin: auto;
+  }
+
+  header{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #33C4FF;
+  }
+  .menu {
+    display: flex;
+    list-style: none;
+    background-color: #33C4FF;
+  }
+  .menu li{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    background-color: #EEF22E;
+    font-family: 'Poppins', sans-serif;
+  }
+  header nav a {
+    border: none;
+  }
+
+  i{
+    font-size: 2rem;
+    justify-content: center;
+  }
+
+#mostrar_informacion_personal{
+    display: none;
+  }
+  
+#mostrar_experiencia{
+  display: none;
+}
+
+#mostrar_habilidades{
+  display: none;
+}
+
+  
